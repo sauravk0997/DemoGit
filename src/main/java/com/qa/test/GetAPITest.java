@@ -30,6 +30,8 @@ public class GetAPITest extends TestBase  {
 	public void getAPITest() throws ClientProtocolException, IOException {
 		restClient = new RestClient();
 		restClient.GET(url);
+		System.out.println("Hello")
+		System.out.println("World")
 	}
 
 }
